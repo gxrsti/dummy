@@ -1,0 +1,46 @@
+{
+  "name": "dummy",
+  "version": "0.1.6",
+  "description": "Performant and lightweight dummy data generation.",
+  "author": "Patrick Gerstacker",
+  "license": "MIT",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "dev": "tsup src/index.ts --watch",
+    "test": "jest --runInBand",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "dummy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxrsti/dummy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gxrsti/dummy/issues"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 2
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "@types/react": "^18.0.26",
+    "prettier": "^2.8.4",
+    "tsup": "^6.4.0",
+    "typescript": "^4.8.4"
+  }
+}
