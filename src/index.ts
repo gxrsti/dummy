@@ -1,1 +1,1 @@
-export {};
+export { dummy } from './dummy';
