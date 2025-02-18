@@ -8,4 +8,8 @@ describe('String module', () => {
   test('alphanumeric should return a string', () => {
     expect(typeof dummy.string.alphanumeric()).toBe('string');
   });
+
+  test('numeric should return a string', () => {
+    expect(typeof dummy.string.numeric()).toBe('string');
+  });
 });
