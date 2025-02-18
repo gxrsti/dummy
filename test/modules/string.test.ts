@@ -12,4 +12,8 @@ describe('String module', () => {
   test('numeric should return a string', () => {
     expect(typeof dummy.string.numeric()).toBe('string');
   });
+
+  test('uuid should return a string', () => {
+    expect(typeof dummy.string.uuid()).toBe('string');
+  });
 });
