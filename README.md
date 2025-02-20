@@ -18,7 +18,7 @@ import { dummy } from 'dummy';
 // ...
 
 var randomId = dummy.string.uuid(); // d02e9296-7063-450c-9dfc-9edd73076c8d
-var randomUsername = dummy.person.firstName(); // Steven
+var randomUsername = dummy.number.float(); // 14.21
 var randomRegisteredAt = dummy.date.past(); // 2021-05-07T01:30:54.348Z
 ```
 
